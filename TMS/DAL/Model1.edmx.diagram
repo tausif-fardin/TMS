@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="abb1816d08bd484b984503c66a1e3d8f" Name="Diagram1">
+        <EntityTypeShape EntityType="TMSUPModel.Admin" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSUPModel.Advertiser" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSUPModel.Booking" Width="1.5" PointX="15" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSUPModel.Client" Width="1.5" PointX="10.5" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSUPModel.Employee" Width="1.5" PointX="8.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSUPModel.Package" Width="1.5" PointX="12.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMSUPModel.User" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="TMSUPModel.FK_Admin_User" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSUPModel.FK_Advertiser_Admin" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSUPModel.FK_Employee_Admin" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSUPModel.FK_Advertiser_User" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSUPModel.FK_Booking_Package" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSUPModel.FK_Client_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSUPModel.FK_Package_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSUPModel.FK_Employee_User" ManuallyRouted="false" />
+        <AssociationConnector Association="TMSUPModel.FK_Package_Employee" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
